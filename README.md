@@ -10,8 +10,6 @@ Con esto, aplico métodos de regresión lineal a un problema que originalmente r
 
 # Programa #2: Capacidad Calorífica vs Temperatura
 
-# Python
-
 Para analizar la relación entre la temperatura y la capacidad calorífica, empleé Python con bibliotecas específicas: `numpy` para la manipulación de datos, `matplotlib.pyplot` para la visualización gráfica y `scipy.stats` para realizar una regresión lineal.
 
 Primero, definí dos arrays usando `numpy`: `T` para las temperaturas y `c` para las capacidades caloríficas. Luego, utilicé la función `linregress` de `scipy.stats`, que me proporcionó la pendiente y el intercepto de la mejor línea de ajuste para estos datos, así como el coeficiente de correlación (`r_value`).
